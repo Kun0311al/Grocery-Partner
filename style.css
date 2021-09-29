@@ -1,0 +1,20 @@
+body{
+    background-color: #F1F5F8;
+}
+.container{
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    color: #063251;
+    font-weight: bold;
+    font-family: "roboto",sans-serif;
+    letter-spacing: 5px;
+    padding: ;
+    margin: 150px 350px 0px 350px;
+}
+#item-el{
+    border-radius: 20px;
+}
+#btn-el{
+    border-radius: 20px;
+}
