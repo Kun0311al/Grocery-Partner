@@ -1,5 +1,5 @@
 body{
-    background-color: gray;
+    background-color: #E6EAE6;
 }
 .container{
     background-color: white;
@@ -14,7 +14,7 @@ body{
     padding-bottom: 30px;
 }
 #input-el{
-    background-color: #f1f5f8;
+    background-color: #D7E6F1;
     border: none;
     border-radius: 10px 0px 0px 10px;
     padding-left: 10px;
@@ -24,6 +24,18 @@ body{
     color: white;
     border: none;
     border-radius: 0px 10px 10px 0px;
+}
+.list{
+    margin-top: 30px;
+    text-align: left;
+}
+#list-el{
+    list-style: none;
+}
+#delete-el{
+    border: none;
+    background-color: white;
+    color: #e66b6b;
 }
 @media screen and (max-width: 367px) {
     #btn-el{
