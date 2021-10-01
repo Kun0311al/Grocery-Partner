@@ -1,5 +1,5 @@
 body{
-    background-color: #F1F5F8;
+    background-color: gray;
 }
 .container{
     background-color: white;
@@ -9,16 +9,33 @@ body{
     font-weight: bold;
     font-family: "roboto",sans-serif;
     letter-spacing: 5px;
-    padding: 50px 00px 50px 0px;
-    margin: 11% 25% 0px 25%;
+    margin-top: 160px;
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
-#item-el{
-    border-radius: 20px;
-    padding: 8px;
+#input-el{
+    background-color: #f1f5f8;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+    padding-left: 10px;
 }
 #btn-el{
-    border-radius: 20px;
-    background-color: #49A6E3;
-    border: 0px;
-    padding: 10px;
+    background-color: #a5d5f8;
+    color: white;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
 }
+@media screen and (max-width: 367px) {
+    #btn-el{
+        background-color: #a5d5f8;
+        color: white;
+        border: none;
+        border-radius: 10px 10px 10px 10px;
+    }
+    #input-el{
+        background-color: #f1f5f8;
+        border: none;
+        border-radius: 10px 10px 10px 10px;
+        padding-left: 10px;
+    }
+  }
