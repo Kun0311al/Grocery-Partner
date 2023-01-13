@@ -10,6 +10,12 @@ btnEl.addEventListener("click",function(){
     loadItem()
 })
 
+deleteEl.addEventListener("click",function(){
+    while(myList.length > 0) {
+    myList.pop();
+    }
+})
+
 function loadItem(){
     let listElement = ""
     for(let i = 0; i < myList.length; i++){
