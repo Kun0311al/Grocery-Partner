@@ -14,6 +14,14 @@ deleteEl.addEventListener("click",function(){
     while(myList.length > 0) {
     myList.pop();
     }
+    let listElement = ""
+    for(let i = 0; i < myList.length; i++){
+        listElement += `
+        <li>
+            ${myList[i]}
+        </li>`
+    }
+    listEl.innerHTML = listElement
 })
 
 function loadItem(){
